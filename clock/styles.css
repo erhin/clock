@@ -1,0 +1,51 @@
+#clockFrame{
+	width: 500px;
+	height: 500px;
+	margin: auto;
+	border-radius: 50%;
+	background-color: black;
+	background-image: url('img.png');
+	background-repeat: no-repeat;
+	background-size: 350px;
+	background-position: center;
+}
+
+
+#secondWing{
+	width: 10px;
+	height: 220px;
+	background-color: orange;
+	border-radius: 10px;
+	margin-left: 250px;
+	transform-origin: bottom;
+}
+
+
+#minuteWing{
+	width: 10px;
+	height: 180px;
+	background-color: blue;
+	border-radius: 10px;
+	margin-left: 250px;
+	margin-top: -180px;
+	transform-origin: bottom;
+}
+
+
+#hourWing{
+	width: 10px;
+	height: 120px;
+	background-color: red;
+	border-radius: 10px;
+	margin-left: 250px;
+	margin-top: -120px;
+	transform-origin: bottom;
+}
+
+#time{
+	text-align: center;
+	font-size: 50px;
+	color: black;
+	position: relative;
+	top: 250px;
+}
